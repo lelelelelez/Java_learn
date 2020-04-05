@@ -37,6 +37,7 @@ ret = exe.run(feed={'word': x_tensor}, fetch_list=[out])
 
 #test3: 输入的id的维度大于1
     #没有构造出来
+    #该判断无意义，已删除
  
 #test4: The last dimension of the input tensor 'Ids' should be 1
     data_t = fluid.layers.data(name='word', shape=[2], dtype='int64', lod_level=1)
@@ -60,7 +61,9 @@ ret = exe.run(feed={'word': x_tensor}, fetch_list=[out])
     #没有构造出来
 
 #test9: The LoD level of Input(Ids) should be 1
-    ret = exe.run(feed={'testtt': x_tensor}, fetch_list=[out]) ##testtt没有声明
+    #没有构造出来
+
+###test7 8 9三个case不容易构造，都在头文件中，暂不需要构造。
 
 
 
