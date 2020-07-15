@@ -22,7 +22,7 @@ x_tensor.set(idxs, place)
 x_tensor.set_recursive_sequence_lengths([[4, 4]])
 ret = exe.run(feed={'word': x_tensor}, fetch_list=[out])
 
-
+??
 
 #test1: NotFoundError: No Input(Ids) found for FusedEmbeddingSeqPool operator.
     data_t = '1'
