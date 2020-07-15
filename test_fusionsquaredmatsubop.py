@@ -17,7 +17,7 @@ from __future__ import print_function
 import unittest
 import numpy as np
 from op_test import OpTest
-
+print("notest")
 class TestFusionSquaredMatSubOp(OpTest):
     def setUp(self):
         self.op_type = 'fusion_squared_mat_sub'
