@@ -1,2 +1,2 @@
-paddle==1.8.0
+paddle==1.8.4
 paddlehub==1.6.0
