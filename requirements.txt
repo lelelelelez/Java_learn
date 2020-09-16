@@ -1,4 +1,4 @@
 paddlepaddle==1.8.4
 paddle==1.8.0
 paddlehub==1.6.0
-Paddle-Lite==2.6.1
+paddle-lite==2.6.1
