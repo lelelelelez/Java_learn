@@ -1,4 +1,4 @@
 paddlepaddle==1.8.4
 paddle==1.8.0
 paddlehub==2.6.0
-paddlebot==0.0.0
+paddlebot
