@@ -3,7 +3,7 @@ import paddle.fluid as fluid
 dict_size = 20
 data_t = fluid.layers.data(name='word', shape=[1], dtype='int64', lod_level=1)
 padding_idx = np.random.randint(1, 10)
-
+？？
 ##正确case
 out = fluid.contrib.fused_embedding_seq_pool(
     input=data_t,
